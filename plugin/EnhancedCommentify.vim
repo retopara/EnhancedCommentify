@@ -807,7 +807,7 @@ function s:GetFileTypeSettings(ft)
 	let b:ECcommentOpen = "'"
 	let b:ECcommentClose = ''
     elseif fileType =~ '^\(plsql\|vhdl\|ahdl\|ada\|asn\|csp\|eiffel\|gdmo\|'.
-		\ 'haskell\|lace\|lua\|mib\|sather\|sql\|sqlforms\|sqlj\|'.
+		\ 'haskell\|lace\|lua\|mib\|sather\|sql\|sqlforms\|sqlj\|pig\|'.
 		\ 'stp\)$'
 	let b:ECcommentOpen = '--'
 	let b:ECcommentClose = ''
